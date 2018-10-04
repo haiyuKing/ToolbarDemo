@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- toolbar高度 -->
+    <dimen name="nav_height">56dp</dimen>
+    <!-- toolbar标题文字大小 -->
+    <dimen name="nav_title_text_size">18sp</dimen>
+    <!-- toolbar的Menu文字大小 -->
+    <dimen name="nav_menu_text_size">14sp</dimen>
+    <!-- toolbar的popup文字大小 -->
+    <dimen name="nav_popup_text_size">16sp</dimen>
+
+</resources>

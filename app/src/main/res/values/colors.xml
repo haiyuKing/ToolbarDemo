@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- toolbar背景色 -->
+    <color name="nav_bg">#ffffff</color>
+    <!-- toolbar标题颜色 -->
+    <color name="nav_text_color">#434343</color>
+    <!-- toolbar的menu文本颜色 -->
+    <color name="nav_menu_text_color">#3090d9</color>
+    <!-- toolbar的popup背景色 -->
+    <color name="nav_popup_bg_color">#ffffff</color>
+    <!-- toolbar的popup文本颜色 -->
+    <color name="nav_popup_text_color">#818181</color>
+</resources>

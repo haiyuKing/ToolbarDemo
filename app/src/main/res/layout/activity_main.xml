@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4">
+
+    <Button
+        android:id="@+id/btn_title_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（无右侧菜单项目）"/>
+
+    <Button
+        android:id="@+id/btn_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（左图左字右图）"/>
+
+    <Button
+        android:id="@+id/btn_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（左图中字右图布局）"/>
+
+    <Button
+        android:id="@+id/btn_no_navigationicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（无左侧图标布局）"/>
+
+    <Button
+        android:id="@+id/btn_menu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（菜单项含有文本的布局）"/>
+
+    <Button
+        android:id="@+id/btn_menu_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（含有溢出菜单的布局）"/>
+
+    <Button
+        android:id="@+id/btn_menu_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（Activity和对话框中都使用）"/>
+
+    <Button
+        android:id="@+id/btn_menu_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础的Toolbar显示（动态更新Menu）"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 基础的toolbar（代码控制标题、图标显示） -->
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_base"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_height"
+    android:minHeight="@dimen/nav_height"
+    android:background="@color/nav_bg"
+    app:navigationIcon="@drawable/nav_back"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    app:titleTextAppearance="@style/nav_toolbar_title_style"
+    app:theme="@style/nav_toolbar_menu_style"
+    app:popupTheme="@style/nav_toolbar_popup_style"
+    >
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/nav_text_color"
+        android:textSize="@dimen/nav_title_text_size"
+        android:layout_gravity="center"/>
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 基础的toolbar的menu -->
+<!--app:showAsAction="ifRoom/never/always"，ifRoom表示只要在app bar存在可用空间，就可以显示，never表示一直显示在溢出菜单（overflowwindow）里面 -->
+<!--always：始终把这个放到项目中app bar。但是谷歌建议避免这么使用，除非它非常关键，使它始终显示在操作栏。设置多个始终显示在app bar可能会导致它们在应用栏其他UI重叠。-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_edit"
+        android:title="编辑"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/nav_menu_share"
+        android:title="分享"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_publish"
+        android:icon="@drawable/nav_menu_fabu"
+        android:title="发布"
+        app:showAsAction="never" />
+
+</menu>

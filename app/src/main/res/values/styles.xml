@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 添加这一句， 即可改变toolbar右侧更多图标的颜色-->
+        <item name="android:textColorSecondary">@color/nav_menu_text_color</item>
+    </style>
+
+    <!-- toolbar标题的颜色和大小值设置 -->
+    <style name="nav_toolbar_title_style">
+        <item name="android:textColor">@color/nav_text_color</item>
+        <item name="android:textSize">@dimen/nav_title_text_size</item>
+    </style>
+    <!-- toolbar的menu（非popup样式）的颜色和大小值设置 -->
+    <style name="nav_toolbar_menu_style">
+        <item name="android:actionMenuTextColor">@color/nav_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size</item>
+    </style>
+
+    <!-- toolbar弹出的popup菜单的颜色和大小值设置 -->
+    <style name="nav_toolbar_popup_style">
+        <item name="android:colorBackground">@color/nav_popup_bg_color</item>
+        <item name="android:textColor">@color/nav_popup_text_color</item>
+        <item name="android:textSize">@dimen/nav_popup_text_size</item>
+        <!--将overlapAnchor属性设置成false就可以在toolbar下方显示-->
+        <item name="overlapAnchor">false</item>
+    </style>
+</resources>
