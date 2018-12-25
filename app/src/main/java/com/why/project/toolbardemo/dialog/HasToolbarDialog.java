@@ -53,7 +53,8 @@ public class HasToolbarDialog extends DialogFragment{
 		//android.R.style.Theme_Material_NoActionBar_Fullscreen这个样式好看
 		//Display fullscreen without actionbar
 		//http://www.itgo.me/a/7477281837685192473/how-to-make-material-design-full-screen-dialog
-		if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+		//解决在4.2.2设备上打开崩溃的问题
+		if(Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP  && Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1) {
 			setStyle(DialogFragment.STYLE_NORMAL, android.R.style.Theme_Material_Light_NoActionBar_Fullscreen);//全屏（在状态栏底下）
 		} else {
 			setStyle(DialogFragment.STYLE_NORMAL, android.R.style.Theme_Holo_Light_NoActionBar_Fullscreen);
